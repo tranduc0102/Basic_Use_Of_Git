@@ -56,8 +56,7 @@ Bạn cần mở file bị xung đột, xem xét sự khác biệt, và chọn g
 - `git merge <tên_nhánh>`: Kết hợp nhánh hiện tại với nhánh khác.
 
 ## 5. Kết nối với GitHub
-1. Tạo repository trên GitHub.
-2. Thêm remote:
+1. Đẩy dự án lên GitHub:
    ```bash
    B1: Tạo một repository mới trên GitHub
    B2: Mở dự án cần push lên GitHub ở trong Git Bash
@@ -65,4 +64,19 @@ Bạn cần mở file bị xung đột, xem xét sự khác biệt, và chọn g
    B4: Cấu hình git
    B5: Chuyển sang nhánh chính git branch -M main
    B6: đẩy commit lên GitHub: git push -u origin main
-   
+2. Clone dự án về
+   ```bash
+   B1: Sao chép đường link của repository trên GitHub
+   B2: Mở Git Bash và chạy lệnh: git clone <link_repo_trên_github>
+### Lưu ý khi clone dự án của người khác
+Quyền hạn: Khi clone một dự án công khai (public repository), bạn có thể đọc và xem mã nguồn, nhưng bạn không thể push các thay đổi trực tiếp lên repository của người khác. Nếu bạn muốn đóng góp vào dự án, bạn cần tạo một fork và sau đó pull request để yêu cầu người chủ dự án xem xét và hợp nhất các thay đổi của bạn.
+
+Forking: Nếu bạn muốn thực hiện các thay đổi trên một dự án của người khác và gửi lại cho họ, bạn cần thực hiện một thao tác gọi là Fork. Forking tạo ra một bản sao repository vào tài khoản GitHub của bạn.
+
+### Cách fork repository:
+   ```bash
+   B1: Truy cập vào repository mà bạn muốn fork.
+   B2: Nhấn vào nút Fork (góc trên bên phải).
+   B3: Sau khi fork xong, bạn có thể clone repository từ tài khoản của mình và thực hiện thay
+đổi.
+   B4: Pull request: Sau khi thực hiện thay đổi trên bản fork, bạn có thể gửi một pull request để yêu cầu người chủ repository hợp nhất (merge) các thay đổi của bạn vào dự án chính.
