@@ -59,4 +59,10 @@ Bạn cần mở file bị xung đột, xem xét sự khác biệt, và chọn g
 1. Tạo repository trên GitHub.
 2. Thêm remote:
    ```bash
-   git remote add origin <link_repo_trên_github>
+   B1: Tạo một repository mới trên GitHub
+   B2: Mở dự án cần push lên GitHub ở trong Git Bash
+   B3: git remote add origin <link_repo_trên_github>
+   B4: Cấu hình git
+   B5: Chuyển sang nhánh chính git branch -M main
+   B6: đẩy commit lên GitHub: git push -u origin main
+   
